@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "VT323", monospace;
+}
+
+/* html,
+body {
+  overflow: hidden;
+} */
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+  font-size: 7vmin;
+  padding: 0 10%;
+  gap: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  img {
+    display: none;
+  }
+  .section {
+    padding: 0;
+    gap: 0;
+  }
+}
